@@ -1,4 +1,10 @@
-import os, shutil, ipsw, restore
+#!/usr/bin/env python3
+
+import os
+import shutil
+
+import ipsw
+import restore
 
 
 def pick3264(fname):
