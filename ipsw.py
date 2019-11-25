@@ -1,6 +1,9 @@
-import os, shutil, bsdiff4
+import os
+import shutil
+import bsdiff4
 from pathlib import Path
 from zipfile import ZipFile
+
 from main import removeFiles, pick3264
 from restore import restore64, restore32
 

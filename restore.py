@@ -1,5 +1,9 @@
-import os, sys, shutil
+import os
+import sys
+import shutil
+
 from ipwndfu import dfu, checkm8
+
 import device as localdevice
 
 

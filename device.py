@@ -1,6 +1,7 @@
-from ipwndfu import dfu
-import re, os
+import re
+import os
 
+from ipwndfu import dfu
 
 def getecid():
     device = dfu.acquire_device()
